@@ -1319,6 +1319,14 @@ video {
   font-size: 7vw;
 }
 
+.text-\[4vw\] {
+  font-size: 4vw;
+}
+
+.text-\[2vw\] {
+  font-size: 2vw;
+}
+
 .font-semibold {
   font-weight: 600;
 }
@@ -1464,6 +1472,13 @@ video {
 
 .hover\:outline-\[\#541554\]:hover {
   outline-color: #541554;
+}
+
+@media (min-width: 640px) {
+  .sm\:text-xl {
+    font-size: 1.25rem;
+    line-height: 1.75rem;
+  }
 }
 
 @media (min-width: 768px) {
