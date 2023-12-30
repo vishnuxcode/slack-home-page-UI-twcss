@@ -1536,6 +1536,16 @@ video {
     margin-right: 102px;
   }
 
+  .xl\:mx-\[px\] {
+    margin-left: px;
+    margin-right: px;
+  }
+
+  .xl\:mx-\[80px\] {
+    margin-left: 80px;
+    margin-right: 80px;
+  }
+
   .xl\:mr-7 {
     margin-right: 1.75rem;
   }
@@ -1594,6 +1604,11 @@ video {
 
   .xl\:self-center {
     align-self: center;
+  }
+
+  .xl\:px-0 {
+    padding-left: 0px;
+    padding-right: 0px;
   }
 
   .xl\:pr-32 {
